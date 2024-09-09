@@ -1,0 +1,1 @@
+Define a long string field by setting the data type, string size, display type, encryption, and providing a default value.

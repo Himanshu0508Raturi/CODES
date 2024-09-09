@@ -1,0 +1,1 @@
+cd "c:\Users\Himanshu\Desktop\coding\c\practice\file_handeling\" ; if ($?) { gcc tempCodeRunnerFile.c -o tempCodeRunnerFile } ; if ($?) { .\tempCodeRunnerFile }

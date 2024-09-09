@@ -1,0 +1,5 @@
+ robust character classification.
+String Termination: The pms and pn pointers are explicitly set to null characters ('\0') to ensure proper string termination.
+Number Printing: The number is printed using printf("%c", num[i]) because it's stored as a string of characters (e.g., "2023").
+Clarity: The code is formatted consistently for better readability.
+himanshu RATURI rthy
