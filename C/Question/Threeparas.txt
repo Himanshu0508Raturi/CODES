@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<ctype.h>
+void main()
+{
+    FILE *fp;
+    char ch;
+    int v = 0, c = 0;
+    fp = fopen("Threeparas.txt", "W+");
+    if (fp == NULL)
+    {
+        printf("File doesn't exist\n");
+        exit(1);
+    }
+    printf("Enter paragraphs\n");
+    while ((ch = getchar()) != EOF)
+    {
+        putc(ch, fp);
+    }
+    rewind(fp);
+    while ((ch = getc(fp)) != EOF)
+    {
+        printf("%c", ch);
+        tolower(ch);
+        if (ch >= 'a' && ch <= 'z')
+        {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            {
+                v++;
+            }
+            else
+            {
+                c++;
+            }
+        }
+    }
+    printf("Vowels: %d \nConsonents: %d", v, c);
+    fclose(fp);
+}
