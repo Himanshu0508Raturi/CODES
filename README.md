@@ -8,7 +8,10 @@ CODES/<br>
 │<br>
 ├── C++/           # C++ programs including OOP concepts, STL, and advanced topics<br>
 │<br>
+├── Data structure/ # c program including data structure topic<br> 
+|<br>
 └── Java/          # Java programs focusing on OOP, collections, and core concepts<br>
+
 <br>
 ### 🚀 Languages & Topics Covered
 C:<br>
