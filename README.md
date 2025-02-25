@@ -11,21 +11,21 @@ CODES/<br>
 └── Java/          # Java programs focusing on OOP, collections, and core concepts<br>
 <br>
 ### 🚀 Languages & Topics Covered
-C:
-Basics (conditional statement , Loops, Functions, Arrays, Pointers)
-File Handling , recursion , strings, structure
-Data Structures (Stacks, Queues, Linked Lists , Sortings)
-C++:
-Object-Oriented Programming (Classes, Inheritance, Polymorphism)
-Standard Template Library (STL)
-Algorithms and Problem-Solving
-Java:
-Core Java Concepts
-Exception Handling
-Collections Framework
-Multithreading and File I/O
-### ✍️ Contributions
-This repository is primarily for academic purposes. However, feel free to open issues or submit pull requests for improvements.
-### ⭐️ Let's Connect
-🔗 GitHub Profile: https://github.com/Himanshu0508Raturi
-📧 Email Me: raturihimanshu077@gmail.com
+C:<br>
+Basics (conditional statement , Loops, Functions, Arrays, Pointers)<br>
+File Handling , recursion , strings, structure<br>
+Data Structures (Stacks, Queues, Linked Lists , Sortings)<br>
+C++:<br>
+Object-Oriented Programming (Classes, Inheritance, Polymorphism)<br>
+Standard Template Library (STL)<br>
+Algorithms and Problem-Solving<br>
+Java:<br>
+Core Java Concepts<br>
+Exception Handling<br>
+Collections Framework<br>
+Multithreading and File I/O<br>
+### ✍️ Contributions<br>
+This repository is primarily for academic purposes. However, feel free to open issues or submit pull requests for improvements.<br>
+### ⭐️ Let's Connect<br>
+🔗 GitHub Profile: https://github.com/Himanshu0508Raturi<br>
+📧 Email Me: raturihimanshu077@gmail.com<br>
