@@ -3,13 +3,13 @@ A collection of code solutions and programs related to my academic curriculum, c
 
 ### Repository Structure
 CODES/<br>
-│
+│<br>
 ├── C/             # C programs covering basics, functions, arrays, pointers, etc.<br>
-│
+│<br>
 ├── C++/           # C++ programs including OOP concepts, STL, and advanced topics<br>
-│
+│<br>
 └── Java/          # Java programs focusing on OOP, collections, and core concepts<br>
-
+<br>
 ### 🚀 Languages & Topics Covered
 C:
 Basics (conditional statement , Loops, Functions, Arrays, Pointers)
