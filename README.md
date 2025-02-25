@@ -2,13 +2,13 @@
 A collection of code solutions and programs related to my academic curriculum, covering multiple programming languages such as C, C++, and Java. This repository serves as a resource for understanding fundamental programming concepts, data structures, algorithms, and object-oriented programming principles.<br>
 
 ### Repository Structure
-CODES/
+CODES/<br>
 │
-├── C/             # C programs covering basics, functions, arrays, pointers, etc.
+├── C/             # C programs covering basics, functions, arrays, pointers, etc.<br>
 │
-├── C++/           # C++ programs including OOP concepts, STL, and advanced topics
+├── C++/           # C++ programs including OOP concepts, STL, and advanced topics<br>
 │
-└── Java/          # Java programs focusing on OOP, collections, and core concepts
+└── Java/          # Java programs focusing on OOP, collections, and core concepts<br>
 
 ### 🚀 Languages & Topics Covered
 C:
