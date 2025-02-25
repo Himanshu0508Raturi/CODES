@@ -1,3 +1,4 @@
+package CODES.Java.Himanshu_Raturi;
 import java.util.Scanner;
 public class Q9_Bank
 {
@@ -28,13 +29,13 @@ void display() {
 System.out.println("Name: " + name + "\n" + 
 					"Address: " + address + "\n" + 
 					"Account Number: " + accno + "\n" + 
-					"Balance: " + balance);
+					"Balance:INR " + balance);
 }
 
 void deposit(int amt)
 {
 	balance += amt;
-	System.out.println(amt+" has been successfully deposited.\n" + "Total amount is: "+balance);
+	System.out.println("INR " + amt+" has been successfully deposited.\n" + "Total amount is: "+balance);
 }
 void withdraw(int amt)
 {
@@ -83,11 +84,12 @@ public static void main(String args[])
 		depositors[i].setBalance(balance);
 	}
 	int choice;
+	
+	int accno;
+	System.out.print("Enter account number to operate: ");
+	accno = sc.nextInt();
 	do
 	{
-	int accno;
-	System.out.println("Enter account number to operate: ");
-	accno = sc.nextInt();
 	System.out.println("Press:\n" + "1 to Deposit Money\n" + "2 to withdraw money\n" + "3 to Change addres\n"+ "4 to display Information\n"+ "5 to exit.");
 	choice = sc.nextInt();
 	switch(choice)

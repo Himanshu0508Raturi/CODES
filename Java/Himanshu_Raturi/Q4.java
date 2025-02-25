@@ -1,3 +1,4 @@
+package CODES.Java.Himanshu_Raturi;
 import java.util.Scanner;
 
 public class Q4 {
