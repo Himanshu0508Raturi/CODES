@@ -152,7 +152,8 @@ public static void main(String args[])
 					break;
 				}					
 	}
-}while(choice != 5);	
+}while(choice != 5);
+System.out.println("Exiting System.Thank you......");
 sc.close();
 }
 }
