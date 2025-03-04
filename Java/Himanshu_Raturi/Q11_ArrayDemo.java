@@ -74,24 +74,37 @@ public class Q11_ArrayDemo  {
     {
         Scanner sc = new Scanner(System.in);
         int p , q ; 
-        System.out.print("Enter size of Array A[] and B[]: ");
+        Q11_ArrayDemo obj = new Q11_ArrayDemo();
+        System.out.println("First arrayFunc Function.");
+        System.out.print("Enter size of Array A[]: ");
         p = sc.nextInt();
-        q = sc.nextInt();
         int A[] = new int[p];
-        int B[] = new int[q];
         System.out.print("Enter element in Array A[]: ");
         for(int i = 0 ; i < p ; i++)
         {
             A[i] = sc.nextInt();
+        }
+        System.out.print("Enter Target: ");
+        int key = sc.nextInt();
+        obj.arrayFunc(A, key);
+        System.out.println("Second arrayFunc Function.");
+        System.out.print("Enter size of array A[]: ");
+        int pa = sc.nextInt();
+        System.out.print("Enter size of array B[]: ");
+        q = sc.nextInt();
+        int Aa[] = new int[pa];
+        int B[] = new int[q];
+        System.out.print("Enter element in Array A[]: ");
+        for(int i = 0 ; i < pa ; i++)
+        {
+            Aa[i] = sc.nextInt();
         }
         System.out.print("Enter element in Array B[]: ");
         for(int i = 0 ; i < q ; i++)
         {
             B[i] = sc.nextInt();
         }
-        Q11_ArrayDemo obj = new Q11_ArrayDemo();
-        obj.arrayFunc(A, 10);
-        obj.arrayFunc(A, p , B , q);
+        obj.arrayFunc(Aa, pa , B , q);
         sc.close();
     }
 }
