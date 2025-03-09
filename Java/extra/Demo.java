@@ -1,3 +1,4 @@
+package CODES.Java.extra;
 import java.util.Scanner;
 
 class Fruit {
