@@ -14,7 +14,7 @@ class singleInheritance extends A {
   }
 
   public static void main(String args[]) {
-    B b = new B();
+    singleInheritance b = new singleInheritance();
     b.display();
   }
 }

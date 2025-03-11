@@ -1,4 +1,4 @@
-//package CODES.Java.extra.Inheritance;
+package CODES.Java.extra.Inheritance;
 
 // Create a super class.
 class A {
@@ -27,7 +27,7 @@ class C extends B {
 class multiLevel {
 
   public static void main(String args[]) {
-    C c = new C();
+    //C c = new C();
     System.gc();
   }
 }

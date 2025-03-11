@@ -1,4 +1,4 @@
-//package CODES.Java.extra.Inheritance;
+package CODES.Java.extra.Inheritance;
 
 // Method overriding.
 class A {
