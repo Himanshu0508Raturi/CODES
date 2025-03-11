@@ -1,4 +1,4 @@
-//package CODES.Java.Term_work;
+package CODES.Java.Term_work;
 /* Write a program to check two strings are Anagram of each other. 
 Note:  An  anagram  of  a  string  is  another  string  that  contains  the  same  characters,  only  the 
 order of characters can be different. 
