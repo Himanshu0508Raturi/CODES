@@ -1,4 +1,4 @@
-package CODES.Java.extra;
+package CODES.Java.extra.Question;
 import java.util.Scanner;
 public class stokes {
     static int stockPrice(int arr[] , int n)

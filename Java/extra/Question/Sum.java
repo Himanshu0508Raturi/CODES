@@ -1,4 +1,4 @@
-package CODES.Java.extra;
+package CODES.Java.extra.Question;
 class Sum
 {
     public static void main(String args[])

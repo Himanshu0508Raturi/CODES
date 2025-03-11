@@ -1,4 +1,4 @@
-package CODES.Java.extra;
+package CODES.Java.extra.Question;
 class prints
 {
     void fn()
