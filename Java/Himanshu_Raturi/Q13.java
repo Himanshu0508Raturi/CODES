@@ -15,7 +15,7 @@ class Fahrenheit extends Temperature
     void changeTemp()
     {
         ctemp = 5.0/9 * (temp - 32);
-        System.out.println("Temperature in celcius : " + ctemp + " °C");
+        System.out.printf("Temperature in Celsius: %.2f °C%n", ctemp);
     }
 }
 class Celsius extends Temperature
@@ -24,7 +24,7 @@ class Celsius extends Temperature
     void changeTemp()
     {
         ftemp = (9.0/5) * temp + 32;
-        System.out.println("Temperature in Fahrenheit: " + ftemp + " °C");
+        System.out.printf("Temperature in Fahrenheit: %.2f F" ,ftemp);
     }
 }
 public class Q13 {
