@@ -1,9 +1,7 @@
 package CODES.Java.Himanshu_Raturi;
 import java.util.Scanner;
 public class Q10_word_example {
-
   private String strdata;
-
   public Q10_word_example(String str)
   {
     

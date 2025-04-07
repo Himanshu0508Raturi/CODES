@@ -40,7 +40,7 @@ public class Q7 {
             }
             if(min==max)
             {
-                System.out.println("Saddle Point = "+min );
+                System.out.println("Saddle Point = " + min);
                 break;
             }
         }
