@@ -79,8 +79,10 @@ public class midq
         obj.addBook("The Alchemist", "Paulo Coelho", 1111);
         obj.addBook("Brida", "Paulo Coelho", 2222);
         obj.addBook("1984", "George Orwell", 3333);
+        obj.addBook("abc" , "xyz" , 2330);
 
         obj.listBook("Paulo Coelho");
         obj.searchBook("George Orwell");
+        obj.searchBook("xyz");
     }
 }
