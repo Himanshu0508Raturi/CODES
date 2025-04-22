@@ -1,4 +1,4 @@
-//package CODES.Java.Himanshu_Raturi;
+package CODES.Java.Himanshu_Raturi;
 import java.util.Scanner;
 class MyException extends Exception
 {
@@ -41,5 +41,6 @@ public class Q17 {
         p = sc.nextInt();
         obj.power(n, p);
         System.out.println("End of main program.");
+        sc.close();
     }
 }
