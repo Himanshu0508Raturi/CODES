@@ -56,9 +56,12 @@ public class Q16 {
         {
             System.out.println(e.getMessage());
         }
-        
+        finally
+        {
+            sc.close();
+        }
         System.out.println("End of main program.");
-        sc.close();
+        
 
     }
 }
