@@ -31,7 +31,7 @@ class sumConcat extends JFrame implements ActionListener
     {
         int n1 = Integer.parseInt(tf1.getText());
         int n2 = Integer.parseInt(tf2.getText());
-        // source label = 
+        // source label = e.getActionCommand();
         String s = e.getActionCommand();
         int ans;
         if(s.equals("+"))
@@ -45,6 +45,20 @@ class sumConcat extends JFrame implements ActionListener
             ans = n2 - n1;
         }
         tf3.setText(Integer.toString(ans));
+
+        /*Object a = e.getSource();
+        if(a == b1)
+        {
+            ans = n1 + n2;
+        }else
+        {
+            if(n1>n2)
+            ans = n1 - n2;
+            else
+            ans = n2 - n1;
+        }
+            for this code to be executable daclare b1 and b2 out of constructor.
+        */
     }
     
     public static void main(String[] args) {
