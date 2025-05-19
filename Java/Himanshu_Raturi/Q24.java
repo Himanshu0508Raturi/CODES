@@ -1,4 +1,4 @@
-//package CODES.Java.Himanshu_Raturi;
+package CODES.Java.Himanshu_Raturi;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -26,6 +26,7 @@ class Q24 extends JFrame implements ActionListener
         b1.addActionListener(this);
         b2.addActionListener(this);
         b3.addActionListener(this);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     public void actionPerformed(ActionEvent e)
     {
@@ -40,7 +41,6 @@ class Q24 extends JFrame implements ActionListener
                 vCount++;
             }
         }
-        // source label = e.getActionCommand();
         String a = e.getActionCommand();
         if(a.equals("CountVowel"))
         {
