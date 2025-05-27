@@ -4,6 +4,7 @@ Note:  An  anagram  of  a  string  is  another  string  that  contains  the  sam
 order of characters can be different. 
 Example, “abcd” and “dabc” are an anagram of each other */
 import java.util.Arrays;
+import java.util.Scanner;
 class Anagram
 {
     void sortString(char arr[])
@@ -40,14 +41,19 @@ public class Q2 {
     public static void main(String args[])
     {
         Anagram obj = new Anagram();
-        if(obj.checkAnagram("abcd" , "badc"))
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String 1: ");
+        String s1 = sc.nextLine();
+        System.out.print("Enter String 2: ");
+        String s2 = sc.next();
+        if(obj.checkAnagram(s1 , s2))
         {
             System.out.println("Both Strings are anagram of each other");
         }else
         {
             System.out.println("Both Strings are not anagram of each other");
         }
-
+        sc.close();
     }
 
 }

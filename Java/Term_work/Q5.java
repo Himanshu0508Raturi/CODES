@@ -13,6 +13,43 @@ Valid
 Valid 
 Not Valid 
 Not Valid */
+import java.util.Scanner;
 public class Q5 {
-    
+
+    public static boolean isValidIPv4(String ip) {
+
+        String[] parts = ip.split("\\.");
+
+        if (parts.length != 4) {
+            return false;
+        }
+
+        for (String part : parts)
+        {
+            int num = Integer.parseInt(part);    
+            if (num < 0 || num > 255) {
+                return false;
+            }
+            if (!part.equals(String.valueOf(num)))
+            {
+                return false;
+            }
+
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.print("Enter String: ");
+        Scanner sc = new Scanner(System.in);
+        String ip = sc.nextLine();
+        if (isValidIPv4(ip)) {
+            System.out.println("Valid");
+        } else {
+            System.out.println("Not Valid");
+        }
+        sc.close();
+        
+    }
 }
+

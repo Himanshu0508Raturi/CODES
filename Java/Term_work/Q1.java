@@ -4,7 +4,8 @@ method) at any given index.
 ILoveMyIndia  
 index: 1 
 String to be inserted: Also 
-Output: IAlsoLoveMyIndia */ 
+Output: IAlsoLoveMyIndia */
+import java.util.Scanner; 
 class StringAppend
 {
     String insertString(String str , int index , String append)
@@ -31,7 +32,16 @@ public class Q1 {
     public static void main(String args[])
     {
         StringAppend obj = new StringAppend();
-        String newStr = obj.insertString("ILoveMyIndia", 1, "Also");       
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String:");
+        String str = sc.nextLine();
+        System.out.print("Enter Index: ");
+        int ind = sc.nextInt();
+        System.out.print("Enter appended String:");
+        String appendStr = sc.next();
+        String newStr = obj.insertString(str, ind, appendStr);       
         System.out.println(newStr);
+        sc.close();
     }
 }
+    

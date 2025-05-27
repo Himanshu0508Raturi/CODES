@@ -4,8 +4,8 @@ Input: str = “102100211”
 Output: 5 
 Explanation: "102" , "021" , "210" , " 021" , "210021" these are combinations can be formed 
 where the occurrence of 0 , 1 and 2 all are equal. */
+import java.util.Scanner;
 public class Q4 {
-    public class Equal012Substring {
 
         public static int longestEqual012Substring(String str) {
             int maxLength = 0;
@@ -30,9 +30,12 @@ public class Q4 {
         }
     
         public static void main(String[] args) {
-            String str = "102100211";
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter String: ");
+            String str = sc.nextLine();
             System.out.println("Longest length: " + longestEqual012Substring(str));
+            sc.close();
         }
-    }
+    
     
 }

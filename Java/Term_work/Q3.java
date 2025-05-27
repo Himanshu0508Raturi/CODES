@@ -3,6 +3,7 @@ package CODES.Java.Term_work;
 (i)Without using any inbuilt sorting functions 
 (ii) By using inbuilt functions */
 import java.util.Arrays;
+import java.util.Scanner;
 class StringSorting
 {
     void sortingWithoutInbuiltFunction(char str[])
@@ -30,7 +31,9 @@ public class Q3 {
     public static void main(String[] args)
     {
         StringSorting obj = new StringSorting();
-        String input = "edcba";
+        System.out.print("Enter string: ");
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
         char[] str1 = input.toCharArray();
         char[] str2 = input.toCharArray();
 
@@ -41,5 +44,6 @@ public class Q3 {
         // Sorting with inbuilt function
         obj.sortingWithInbuiltFunction(str2);
         System.out.println("Sorted with inbuilt function: " + new String(str2));
+        sc.close();
     }
 }
