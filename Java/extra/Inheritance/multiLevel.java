@@ -24,7 +24,7 @@ class C extends B {
   }
 }
 
-class multiLevel {
+public class multiLevel {
 
   public static void main(String args[]) {
     //C c = new C();

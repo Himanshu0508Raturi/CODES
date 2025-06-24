@@ -4,7 +4,7 @@ import java.io.*;
 
 class Parent
 {
-  void msg()
+  void msg() throws IOException
   {
     System.out.println("parent");
   }
@@ -14,13 +14,21 @@ class Child extends Parent
 {
     void msg() throws IOException
     {
-        System.out.println("child");
+      System.out.println("child");
+      //throw new IOException("Error.");
+      
     }
 
   public static void main(String args[])
   {
     Parent p = new Child();
-    p.msg();
+    try
+    {
+      p.msg();
+    }catch(IOException e)
+    {
+      System.out.println(e.getMessage());
+    } 
   }
 }
 

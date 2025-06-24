@@ -24,7 +24,13 @@ public class throws1 {
     public static void main(String[] args) //throws IOException
     {
         throws1 obj  = new throws1();
-        obj.p();
+        try
+        {
+            obj.p();
+        }catch(IOException e)
+        {
+            System.out.println(e.getMessage());
+        }
         System.out.println("Normal flow.");    
     }
 }

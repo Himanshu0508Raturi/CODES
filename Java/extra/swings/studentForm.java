@@ -15,14 +15,14 @@ public class studentForm extends JFrame {
 
 
         JLabel l7 = new JLabel("City-");
-        JComboBox cb1 = new JComboBox();
+        JComboBox cb1 = new JComboBox<>();
         cb1.addItem("DDun");
         cb1.addItem("Haldwani");
         cb1.addItem("Delhi");
 
 
         JLabel l8 = new JLabel("Course-");
-        JComboBox cb2 = new JComboBox();
+        JComboBox cb2 = new JComboBox<>();
         cb2.addItem("B.Tech");
         cb2.addItem("M.Tech");
         cb2.addItem("BSc");

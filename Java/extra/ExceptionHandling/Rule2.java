@@ -13,7 +13,7 @@ class Parent
 
 class Child extends Parent
 {
-    void msg() throws ArithmeticException
+    void msg() throws ArithmeticException*
     {
         System.out.println("child");
     }

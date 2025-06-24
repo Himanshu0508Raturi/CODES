@@ -1,4 +1,4 @@
-//package CODES.Java.extra.Inheritance;
+package CODES.Java.extra.Inheritance;
 
 // Dynamic Method Dispatch
 class A {
